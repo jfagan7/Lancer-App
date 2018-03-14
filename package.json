@@ -20,7 +20,15 @@
   },
   "homepage": "https://github.com/jfagan7/Lancer-App#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.3",
+    "express-validator": "^5.0.3",
+    "mongoose": "^5.0.10",
     "nodemon": "^1.17.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "url": "^0.11.0"
   },
