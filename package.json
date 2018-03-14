@@ -1,0 +1,30 @@
+{
+  "name": "lancer-app",
+  "version": "1.0.0",
+  "description": "All-in-1 Freelance solution",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfagan7/Lancer-App.git"
+  },
+  "keywords": [
+    "Freelance"
+  ],
+  "author": "Justin Fagan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfagan7/Lancer-App/issues"
+  },
+  "homepage": "https://github.com/jfagan7/Lancer-App#readme",
+  "dependencies": {
+    "nodemon": "^1.17.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "electron": "^1.8.3"
+  }
+}
