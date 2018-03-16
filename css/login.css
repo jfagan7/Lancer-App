@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(38, 67, 228);
+    text-align: center;
+}
+
+body form{
+    margin: auto;
+    
+    
+}
+
+form h3{
+    font: 20pt Helvetica sans-serif;
+}
