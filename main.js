@@ -1,8 +1,10 @@
 const {app, BrowserWindow} = require('electron');
 const url = require('url');
 const path = require('path');
+const ejs = require('ejs');
 
-let mainWindow, secondaryWindow;
+
+let mainWindow;
 function createWindow () {
  // Create the browser window.
  mainWindow = new BrowserWindow({width: 800, height: 600});
