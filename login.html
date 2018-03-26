@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lancer Login</title>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+</head>
+
+<body>
+    <form action="renderer.js">
+        <h3>Email</h3>
+        <input type="email" name="email" id="email">
+        <h3>Password</h3>
+        <input type="password" name="password" id="password">
+        <button type="submit" id="signInBtn">Sign in</button>
+        <button type="submit" id="signUpBtn">Sign up</button>
+    </form>
+    <script>
+        require('./renderer.js');
+    </script>
+</body>
+
+</html>
